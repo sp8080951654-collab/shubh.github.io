@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>माझी कमाई वेबसाइट</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>स्वागत आहे! पैसे कमवा</h1>
+    </header>
+    
+    <div class="offer-wall">
+        <h2>उपलब्ध ऑफर्स</h2>
+        <div class="offer">
+            <h3>YouTube व्हिडिओ पहा</h3>
+            <p>किंमत: ₹5 प्रति व्हिडिओ</p>
+            <button onclick="completeOffer('youtube')">सुरू करा</button>
+        </div>
+        
+        <div class="offer">
+            <h3>Google सर्व्हे भरा</h3>
+            <p>किंमत: ₹10 प्रति सर्व्हे</p>
+            <button onclick="completeOffer('survey')">सुरू करा</button>
+        </div>
+    </div>
 
+    <div class="wallet">
+        <h3>तुमचे बॅलन्स: ₹<span id="balance">0</span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
