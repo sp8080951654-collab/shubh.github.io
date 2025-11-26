@@ -1,37 +1,101 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.9;
 }
 
 .offer-wall {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 15px;
     margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .offer {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
+    border: 2px solid #e9ecef;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.offer:hover {
+    border-color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #28a745;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
 }
 
 .wallet {
-    background: #ffd700;
-    padding: 15px;
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.referral {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.referral h3 {
+    margin-top: 0;
+}
+
+.offer h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.offer p {
+    color: #666;
+    margin: 5px 0;
 }
